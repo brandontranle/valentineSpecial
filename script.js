@@ -1,5 +1,5 @@
 
-alert('you might be too cute for this page!!!')
+alert('For my loveys eyes only <3')
 const hearts = [];
 const pinks = ["#ff748c", "#ff8da1", "#ffa7b6"];
 
