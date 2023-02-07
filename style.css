@@ -1,8 +1,8 @@
 :root{
 
---border-color: rgb(255,193,203);
---background: rgb(230,240,230);
---front-bg: rgb(177, 217, 250);
+--border-color: rgb(216, 205, 245);
+--background: rgb(255, 255, 255);
+--front-bg: rgb(216, 154, 231);
 --front-bg-darken: rgb(125, 182, 223);
 --shadow: rgb(0,0,0,0.1);
 --drop-shadow: rgb(0,0,0,0.5);
@@ -131,7 +131,7 @@ transition: all 0.8s ease-in-out;
 
   .cardheart-1{
     position: absolute;
-    background-color: rgb(247, 110, 227);
+    background-color: rgb(190, 166, 246);
     filter: drop-shadow(0px 0px 5px var(--drop-shadow));
     height: 100px;
     width: 100px;
@@ -143,7 +143,7 @@ transition: all 0.8s ease-in-out;
   .cardheart-1:after{
     content: "";
     position: absolute;
-    background-color: rgb(247, 110, 227);
+    background-color: rgb(190, 166, 246);
     border-radius: 50%;
     height: 100px;
     width: 100px;
@@ -158,7 +158,7 @@ transition: all 0.8s ease-in-out;
 
   .cardheart-2{
     position: absolute;
-    background-color: rgb(234, 111, 203);
+    background-color: rgb(213, 124, 240);
     filter: drop-shadow(0px 0px 5px var(--drop-shadow));
     height: 80px;
     width: 80px;
@@ -172,7 +172,7 @@ transition: all 0.8s ease-in-out;
   .cardheart-2:after{
     content: "";
     position: absolute;
-    background-color: rgb(234, 111, 203);;
+    background-color: rgb(213, 124, 240);
     border-radius: 50%;
     height: 80px;
     width: 80px;
@@ -187,7 +187,7 @@ transition: all 0.8s ease-in-out;
 
   .cardheart-3{
     position: absolute;
-    background-color: rgb(226, 133, 203);
+    background-color: rgb(189, 120, 241);
     filter: drop-shadow(0px 0px 5px var(--drop-shadow));
     height: 60px;
     width: 60px;
@@ -201,7 +201,7 @@ transition: all 0.8s ease-in-out;
   .cardheart-3:after{
     content: "";
     position: absolute;
-    background-color: rgb(226, 133, 203);
+    background-color: rgb(189, 120, 241);
     border-radius: 50%;
     height: 60px;
     width: 60px;
@@ -442,7 +442,7 @@ transition: all 0.8s ease-in-out;
 
   .cardheart-1{
     position: absolute;
-    background-color: rgb(247, 110, 227);
+    background-color: rgb(190, 166, 246);
     filter: drop-shadow(0px 0px 5px var(--drop-shadow));
     height: 100px;
     width: 100px;
@@ -454,7 +454,7 @@ transition: all 0.8s ease-in-out;
   .cardheart-1:after{
     content: "";
     position: absolute;
-    background-color: rgb(247, 110, 227);
+    background-color: rgb(190, 166, 246);
     border-radius: 50%;
     height: 100px;
     width: 100px;
@@ -469,7 +469,7 @@ transition: all 0.8s ease-in-out;
 
   .cardheart-2{
     position: absolute;
-    background-color: rgb(234, 111, 203);
+    background-color: rgb(206, 144, 244);
     filter: drop-shadow(0px 0px 5px var(--drop-shadow));
     height: 80px;
     width: 80px;
@@ -483,7 +483,7 @@ transition: all 0.8s ease-in-out;
   .cardheart-2:after{
     content: "";
     position: absolute;
-    background-color: rgb(234, 111, 203);;
+    background-color: rgb(206, 144, 244);
     border-radius: 50%;
     height: 80px;
     width: 80px;
@@ -498,7 +498,7 @@ transition: all 0.8s ease-in-out;
 
   .cardheart-3{
     position: absolute;
-    background-color: rgb(226, 133, 203);
+    background-color: rgb(241, 177, 247);
     filter: drop-shadow(0px 0px 5px var(--drop-shadow));
     height: 60px;
     width: 60px;
@@ -512,7 +512,7 @@ transition: all 0.8s ease-in-out;
   .cardheart-3:after{
     content: "";
     position: absolute;
-    background-color: rgb(226, 133, 203);
+    background-color: rgb(241, 177, 247);
     border-radius: 50%;
     height: 60px;
     width: 60px;
