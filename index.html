@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our First Valentines Day </title>
+    <link rel="stylesheet"href= "style.css">
+    <link rel="scripts" href = "script.js">
+    <div class = "header">
+    <h1> <span class= "auto-input"></span></h1> 
+    </div>
+    <div class="card">
+        <div class = "back"> 
+            <img class = "image" src="img/bz.JPG" alt = "cute">
+        </div>
+        <div class = "front">
+        <div class =  "heartcontainer">
+            <div class = "cardheart-1"> </div>
+            <div class = "cardheart-2"> </div>
+            <div class = "cardheart-3"> </div>
+        </div>
+    </div>
+    <div class = "textContainer">
+        <p id="header"> What came to be Eternally Yours </p>
+        <p id="text"> Briefly after the facetime call.. I was nervous. Shook by how cute your smile was,</p><p> I took life's chance to talk to you myself. We hit it off, went through ups and downs</p> <p>and grew independently to inevitably become perfect for each other, a perfect</p> <p> duo. We once asked to be friends, naturally became bestfriends, and </p> <p> wholeheartedly became each others homes for our hearts, but today I ask.. </p>
+        <p id ="question"> <span class="paragraph"> </span> </p>
+        <div class='heart-like-button' onclick="clickedFunction()"></div>
+    </div>
+</div>
+
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var options = {
+    strings: ["To: Zyrille Nicole Lumbang","From: Brandon Tran Le", "Happy Valentines Day <3"],
+    typeSpeed: 100,
+    backSpeed: 50,
+    loop: true
+};
+    let typed = new Typed(".auto-input",options)  
+
+    options = {
+    strings: ["Will you be my Valentine?","^10000 Will you ^1000 be my first, and eternally, ^1000 my only Valentine?"],
+    typeSpeed: 100,
+    backSpeed: 50,
+    loop: false
+    };
+
+    typed = new Typed(".paragraph", options)
+   
+   
+    </script>
+
+    <script src="/script.js"></script>
+   
+</body>
+</html>
